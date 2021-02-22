@@ -10,6 +10,12 @@ plt.plot(x,y1,color="blue")
 plt.plot(x,y2,color="red")
 plt.legend(['y=sinx','y=cosx'])
 
+plt.title('The plot of tanx') 
+y3=np.tan(x)
+plt.plot(x,y3)
+plt.ylim(-10,10)
+plt.show()
+
 
 
 
